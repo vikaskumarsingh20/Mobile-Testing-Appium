@@ -1,0 +1,44 @@
+{
+  "name": "appium-javascript-testing",
+  "version": "1.0.0",
+  "description": "Practical Appium 2.x learning workspace with JavaScript, WebdriverIO, and Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mocharc.json",
+    "test:hello": "mocha test/specs/learning/android/00.hello-world.settings.spec.js --timeout 120000",
+    "test:demo": "mocha test/specs/learning/android/01.demo-app-login-signup.spec.js test/specs/learning/android/02.demo-app-forms-alerts.spec.js test/specs/learning/android/03.demo-app-gestures.spec.js --timeout 180000",
+    "test:apidemos": "mocha test/specs/learning/android/04.apidemos-controls.spec.js --timeout 180000",
+    "test:legacy": "mocha test/specs/android --timeout 60000",
+    "test:report": "mocha test/specs/learning/android/**/*.spec.js --reporter mochawesome --timeout 180000",
+    "appium": "npx appium --relaxed-security",
+    "doctor:android": "npx appium driver doctor uiautomator2",
+    "devices": "adb devices",
+    "download:demoapp": "powershell -ExecutionPolicy Bypass -File scripts/download-demo-app.ps1",
+    "download:apidemos": "powershell -ExecutionPolicy Bypass -File scripts/download-apidemos.ps1",
+    "download:apps": "npm run download:demoapp && npm run download:apidemos",
+    "dev": "nodemon --exec \"npm test\""
+  },
+  "keywords": [
+    "appium",
+    "mobile",
+    "testing",
+    "javascript",
+    "webdriverio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "webdriverio": "^8.46.0"
+  },
+  "devDependencies": {
+    "appium": "^2.1.0",
+    "appium-uiautomator2-driver": "^2.35.1",
+    "appium-xcuitest-driver": "^5.3.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "nodemon": "^3.0.2"
+  }
+}
