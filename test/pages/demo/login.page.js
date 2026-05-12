@@ -14,7 +14,7 @@ class LoginPage extends BasePage {
   }
 
   get loginButton() {
-    return this.driver.$('~button-LOGIN');
+    return this.driver.$('android=new UiSelector().description("Login button")');
   }
 
   get signUpButton() {
@@ -22,11 +22,11 @@ class LoginPage extends BasePage {
   }
 
   get emailInput() {
-    return this.driver.$('~input-email');
+    return this.driver.$('android=new UiSelector().description("Username input field")');
   }
 
   get passwordInput() {
-    return this.driver.$('~input-password');
+    return this.driver.$('android=new UiSelector().description("Password input field")');
   }
 
   get repeatPasswordInput() {
