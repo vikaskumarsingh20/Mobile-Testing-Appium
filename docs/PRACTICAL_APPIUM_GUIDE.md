@@ -306,7 +306,7 @@ What each dependency does:
 
 File:
 
-- [test/specs/learning/android/00.hello-world.settings.spec.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/specs/learning/android/00.hello-world.settings.spec.js)
+- [test/specs/learning/android/00.hello-world.settings.spec.js](../test/specs/learning/android/00.hello-world.settings.spec.js)
 
 What it does:
 
@@ -539,10 +539,10 @@ A: Accessibility id, because it is stable, readable, and cross-platform friendly
 
 These runnable files are already in this workspace:
 
-- [test/specs/learning/android/01.demo-app-login-signup.spec.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/specs/learning/android/01.demo-app-login-signup.spec.js)
-- [test/specs/learning/android/02.demo-app-forms-alerts.spec.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/specs/learning/android/02.demo-app-forms-alerts.spec.js)
-- [test/specs/learning/android/03.demo-app-gestures.spec.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/specs/learning/android/03.demo-app-gestures.spec.js)
-- [test/specs/learning/android/04.apidemos-controls.spec.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/specs/learning/android/04.apidemos-controls.spec.js)
+- [test/specs/learning/android/01.demo-app-login-signup.spec.js](../test/specs/learning/android/01.demo-app-login-signup.spec.js)
+- [test/specs/learning/android/02.demo-app-forms-alerts.spec.js](../test/specs/learning/android/02.demo-app-forms-alerts.spec.js)
+- [test/specs/learning/android/03.demo-app-gestures.spec.js](../test/specs/learning/android/03.demo-app-gestures.spec.js)
+- [test/specs/learning/android/04.apidemos-controls.spec.js](../test/specs/learning/android/04.apidemos-controls.spec.js)
 
 ### 1. Open app
 
@@ -835,9 +835,9 @@ What each layer does:
 
 Key files:
 
-- [test/pages/base.page.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/pages/base.page.js)
-- [test/pages/demo/login.page.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/pages/demo/login.page.js)
-- [test/utils/mobileActions.js](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/test/utils/mobileActions.js)
+- [test/pages/base.page.js](../test/pages/base.page.js)
+- [test/pages/demo/login.page.js](../test/pages/demo/login.page.js)
+- [test/utils/mobileActions.js](../test/utils/mobileActions.js)
 
 ### Practice task
 
