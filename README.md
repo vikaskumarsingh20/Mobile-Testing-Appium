@@ -49,7 +49,7 @@ npm run test:apidemos
 
 ## Learning guide
 
-Open [docs/PRACTICAL_APPIUM_GUIDE.md](/C:/Users/vaibh/Desktop/QA%20Engineer/Appium/docs/PRACTICAL_APPIUM_GUIDE.md) for the full beginner-to-job-ready roadmap.
+Open [docs/PRACTICAL_APPIUM_GUIDE.md](docs/PRACTICAL_APPIUM_GUIDE.md) for the full beginner-to-job-ready roadmap.
 
 ## Included APKs
 
