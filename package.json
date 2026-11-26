@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --config .mocharc.json",
+    "test:unit": "node --test test/unit/mobileActions.test.js",
     "test:hello": "mocha test/specs/learning/android/00.hello-world.settings.spec.js --timeout 120000",
     "test:demo": "mocha test/specs/learning/android/01.demo-app-login-signup.spec.js test/specs/learning/android/02.demo-app-forms-alerts.spec.js test/specs/learning/android/03.demo-app-gestures.spec.js --timeout 180000",
     "test:apidemos": "mocha test/specs/learning/android/04.apidemos-controls.spec.js --timeout 180000",
@@ -42,5 +43,3 @@
     "nodemon": "^3.0.2"
   }
 }
-
-

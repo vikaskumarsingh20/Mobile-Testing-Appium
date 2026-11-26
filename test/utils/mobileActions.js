@@ -83,10 +83,14 @@ class MobileActions {
   }
 
   async scrollDownUntilVisible(selector, { maxScrolls = 6, percent = 0.85 } = {}) {
-    for (let attempt = 0; attempt < maxScrolls; attempt += 1) {
+    for (let attempt = 0; attempt <= maxScrolls; attempt += 1) {
       const element = await this.driver.$(selector);
       if (await element.isDisplayed().catch(() => false)) {
         return element;
+      }
+
+      if (attempt === maxScrolls) {
+        break;
       }
 
       const windowRect = await this.driver.getWindowRect();
