@@ -30,6 +30,7 @@ Appium/
 ## Current first-priority commands
 
 ```bash
+npm run test:unit
 npm run doctor:android
 npm run appium
 npm run test:hello
